@@ -1,0 +1,312 @@
+p, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	list-style: none;
+}
+
+
+#wrapper {
+	display: block;
+	position: relative;
+}
+
+.layout {
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.bgrd-1, .bgrd-2, .bgrd-3, .bgrd-4 {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+} 
+
+
+.bgrd-1 {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+
+.bgrd-2 {
+	z-index: 2;
+}
+
+.bgrd-3 {
+	z-index: 3;
+}
+
+.bgrd-4 {
+	z-index: 4;
+	left: 200px;
+
+}
+
+header, content.sub-content, content.main-content, footer  {
+	display: block;
+	position: relative;
+	z-index: 5;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 370px;
+	padding-top: 70px;
+
+}
+
+header a {
+	color: rgba(62, 60, 61, 0.25);
+	font-size: 14px;
+	font-family: Corbel;
+	text-transform: uppercase;
+	line-height: 18px;
+	margin-right: 16px;
+	text-shadow: 1px 1px rgba(62, 60, 61, 0.25); 
+
+
+}
+
+content.sub-content {
+	height: 300px;
+	background-image: url(../images/backgrd.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	padding-bottom: 42px;
+}
+
+.search {
+	background-image: url(../images/backgrd-search.png);
+	width: 402px;
+	height: 90px;
+	padding-top: 20px;
+
+
+}
+
+input.srch {
+	width: 260px;
+	height: 30px;
+	margin-left: 18px;
+	outline: #cccccc;
+	background-image: linear-gradient(to top, rgba(238, 238, 238, 0.24) 0%, rgba(204, 204, 204, 0.24) 100%);
+	background-image: url(../images/mail.png);
+	background-repeat: no-repeat;
+	background-position: 4px;
+	padding-left: 26px;
+	color: #767676;
+	font-family: Candara;
+	font-size: 12px;
+
+}
+
+input.btn {
+	width: 90px;
+	height: 30px;
+	background-image: linear-gradient(to top, #fdb513 0%, rgba(255, 255, 255, 0) 100%);
+	border: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: Candara;
+	text-transform: uppercase;
+}
+
+.search p {
+	margin-top: 40px;
+	text-align: center;
+	color: rgba(62, 60, 61, 0.25);
+	text-shadow: 1px 1px rgba(62, 60, 61, 0.25);
+	font-family: Corbel-Italic;
+	font-size: 12px;
+
+}
+
+.sub-article {
+	display: block;
+	margin-left: 36px;
+	text-align: justify;
+}
+
+.sub-article p, .sub-article h6, .sub-article a {
+	font-size: 14px;
+	font-family: Candara;
+}
+
+.sub-article h6 {
+	color: #141313;
+	font-weight: 900;
+	line-height: 24px;
+}
+
+.sub-article p {
+	color: #232323;
+	line-height: 18px;
+}
+
+.sub-article a {
+	color: #595858;
+	line-height: 18px;
+	float: right;
+	margin-top: 50px;
+
+}
+
+content.main-content {
+	height: 450px;
+	background-color: #f8f7f7;
+	padding-top: 50px;
+
+
+}
+
+content.main-content .main-article p:first-child {
+	color: #323231;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+	font-family: Candara;
+}
+
+content.main-content .main-article p:last-child {
+	color: #6f6f6f;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: justify;
+	font-family: Candara;
+	margin-top: 34px;
+	margin-bottom: 36px;
+}
+
+.quote-tex p.text {
+	color: #323231;
+	font-size: 18px;
+	font-family: Cambria;
+	text-align: left;
+	line-height: 24px;
+
+}
+ 
+.quote-text  p.author {
+	color: #5e5e5d;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: Cambria;
+	text-align: right;
+}
+
+.social {
+	display: block;
+	text-align: center;
+	margin-top: 48px;
+}
+
+h5 {
+	color: #4e4e4e;
+	font-size: 14px;
+	font-family: Candara;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	text-align: center;
+	white-space: nowrap;
+}
+
+h5:before,
+h5:after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 50%;
+  height: 1px;
+  vertical-align: middle;
+  background: #d6d5d5;
+
+}
+h5:before {
+  left: -10px;
+  margin-left: -50%;
+}
+h5:after {
+  left: 10px;
+  margin-right: -50%;
+}
+
+
+footer {
+	height: 360px;
+	background-color: #4e4e4e;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+h2 {
+	color: #f8f7f7;
+	font-size: 36px;
+	font-family: Candara;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+footer .col-1 p {
+	color: #f8f7f7;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: Candara;
+	text-align: left;
+}
+
+
+
+footer .col-2 p {
+	color: #f8f7f7;
+	font-size: 14px;
+	font-family: Candara;
+	margin-bottom: 10px;
+	
+}
+
+footer .col-2 img {
+	float: left;
+	line-height: 40px;
+	margin-right: 4px;
+}
+
+footer .col-2 img:last-child {
+	margin-top: 20px;
+}
+
+.copyright {
+	display: block;
+	background-color: #323131;
+	height: 50px;
+	width: 100%;
+	margin-top: 34px;
+	padding-left: 24px;
+}
+
+.copyright p {
+	color: #c4c4c4;
+	font-size: 14px;
+	font-family: Candara;
+	line-height: 50px;
+}
+
+
+
+
+
+
+
+
+

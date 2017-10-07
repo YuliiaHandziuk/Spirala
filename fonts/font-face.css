@@ -1,0 +1,19 @@
+@font-face {
+	font-family: Cambria;
+	src:url(../fonts/cambria/Cambria.ttf);
+}
+
+@font-face {
+	font-family: Candara;
+	src:url(../fonts/candara/Aquarion.otf);
+}
+
+@font-face {
+	font-family: Corbel-Italic;
+	src:url(..fonts/corbel/Corbel-Italic.ttf);
+}
+
+@font-face {
+	font-family: Corbel;
+	src:url(../fonts/corbel/Corbel-Bold.ttf);
+}
